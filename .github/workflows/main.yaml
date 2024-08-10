@@ -1,6 +1,6 @@
-# name: "Prod Deploy"
+# name: "PROD DEPLOY"
 
-# on: 
+# on:
 #   push:
 #     branches:
 #       - main
@@ -14,8 +14,7 @@
 #     uses: ./.github/workflows/terraform.yaml
 #     with:
 #       environment: prod
-#       aws-assume-role-arn: "arn:aws:iam::058264412712:role/github-actions-pipeline"
+#       aws-assume-role-arn: ""
 #       aws-region: "us-east-1"
-#       aws-statefile-s3-bucket: "terraform-gitactions"
-#       aws-lock-dynaodb-table: "terraform-gitactions"
-
+#       aws-statefile-s3-bucket: ""
+#       aws-lock-dynamodb-table: ""
