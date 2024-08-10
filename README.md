@@ -105,3 +105,25 @@ Configurar o setup do workflow
 
 Configurar o step Terraform init
 
+Configurar o step Terraform Plan
+
+Configurar o step Terraform Apply
+
+Configurar o pipeline para ambiente de DEV:
+
+- Configurar o reusable workflow do terraform (develop)
+- Realizar a criação de um bucket S3 no ambiente de DEV
+
+Configurar o pipeline para ambiente de Prod:
+
+- Configurar o reusable workflow do terraform (main)
+- Realizar a criação de um bucket S3 no ambiente de PROD
+
+Configurar o Terraform Destroy
+
+- Configurar o step do terraform destroy
+- Ajustar is steps de plan e apply para considerar o destroy
+- Realizar o destroy no ambiente de DEV
+- Realizar o destroy no ambiente de PROD
+
+fonte: https://www.youtube.com/watch?v=1TNAUW7_bC0
